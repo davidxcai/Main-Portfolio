@@ -1,0 +1,84 @@
+body {
+    background-color: #fffdf4;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.tab-body {
+    background-color: #fffdf4;
+}
+
+a {
+    color: #212529;
+}
+
+#homeHeader {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-content {
+    color: #212529;
+}
+
+.jumbotron {
+    position: relative;
+    background-color: transparent;
+    height: 800px;
+    width: 100%;
+    margin: 0;
+}
+
+#profilePic {
+    border-radius: 50%;
+}
+
+.navbar {
+    position: relative;
+    /* color: #212529; */
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-item .active {
+    background-color: transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: black;
+    border-color: #dee2e6 #dee2e6 #fffdf4;
+}
+
+.icon {
+   margin-top: 12px;
+   color: #212529;
+}
+
+.icon:hover {
+    color: #212529;
+    transform: scale(1.1);
+}
+
+.footer-icon {
+    font-size: 2rem;
+    color: #212529;
+}
+
+.footer-icon:hover {
+    color: #212529;
+    transform: scale(1.1);
+}
+
+#contactBox {
+    background-color: #fffcf8;
+}
+
+.form-control {
+    background-color: #fffefc;
+}
+

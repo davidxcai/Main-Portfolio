@@ -20,12 +20,10 @@ a {
     color: #212529;
 }
 
-.jumbotron {
-    position: relative;
-    background-color: transparent;
-    height: 800px;
-    width: 100%;
-    margin: 0;
+#aboutBody {
+    background-image: url("../images/light-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #profilePic {

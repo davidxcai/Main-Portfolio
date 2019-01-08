@@ -20,6 +20,14 @@ a {
     color: #212529;
 }
 
+.name-tag {
+    text-decoration: underline;
+}
+
+.name-tag:hover {
+    color: #02a4d3;
+}
+
 #aboutBody {
     background-image: url("../images/light-bg.png");
     background-repeat: no-repeat;
@@ -52,6 +60,42 @@ a {
     border-color: #dee2e6 #dee2e6 #fffdf4;
 }
 
+#homeActive {
+    border-bottom: 3px solid #ff6666;
+}
+
+#homeNav:hover {
+    border-bottom: 3px solid #ff6666;
+    transition: 0.2s;
+}
+
+#aboutActive {
+    border-bottom: 3px solid #ffd46c;
+}
+
+#aboutNav:hover {
+    border-bottom: 3px solid #ffd46c;
+    transition: 0.2s;
+}
+
+#portfolioActive {
+    border-bottom: 3px solid #67ffc5;
+}
+
+#portfolioNav:hover {
+    border-bottom: 3px solid #67ffc5;
+    transition: 0.2s;
+}
+
+#contactActive {
+    border-bottom: 3px solid #5bc9ff;
+}
+
+#contactNav:hover {
+    border-bottom: 3px solid #5bc9ff;
+    transition: 0.2s;
+}
+
 .icon {
    margin-top: 12px;
    color: #212529;
@@ -60,6 +104,7 @@ a {
 .icon:hover {
     color: #212529;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .footer-icon {
@@ -70,6 +115,7 @@ a {
 .footer-icon:hover {
     color: #212529;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #contactBox {

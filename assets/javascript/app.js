@@ -16,7 +16,7 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
     console.log("you're on mobile");
 }
 
-//changes the carousel picture if you're on mobile
+//changes the carousel pictures if you're on mobile
 function mobilePic() {
     var pic1 = $("#pic1");
     var pic2 = $("#pic2");

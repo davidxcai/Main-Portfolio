@@ -24,8 +24,16 @@ p {
     color: #fffdf4;
 }
 
-h1 {
+h1, h2, h3 {
     color: #fffdf4;
+}
+
+.name-tag {
+    text-decoration: underline;
+}
+
+.name-tag:hover {
+    color: #ffdd72;
 }
 
 #aboutBody {
@@ -69,6 +77,42 @@ h1 {
     border-color: #2b2b2b #2b2b2b #090909;
 }
 
+#homeActive {
+    border-bottom: 3px solid #ff6666;
+}
+
+#homeNav:hover {
+    border-bottom: 3px solid #ff6666;
+    transition: 0.2s;
+}
+
+#aboutActive {
+    border-bottom: 3px solid #ffd46c;
+}
+
+#aboutNav:hover {
+    border-bottom: 3px solid #ffd46c;
+    transition: 0.2s;
+}
+
+#portfolioActive {
+    border-bottom: 3px solid #67ffc5;
+}
+
+#portfolioNav:hover {
+    border-bottom: 3px solid #67ffc5;
+    transition: 0.2s;
+}
+
+#contactActive {
+    border-bottom: 3px solid #5bc9ff;
+}
+
+#contactNav:hover {
+    border-bottom: 3px solid #5bc9ff;
+    transition: 0.2s;
+}
+
 .card-img-top {
     width: 100%;
     border-bottom-left-radius: calc(.25rem - 1px);
@@ -87,6 +131,7 @@ h1 {
 .icon:hover {
     color: #fffdf4;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .footer-icon {
@@ -97,6 +142,7 @@ h1 {
 .footer-icon:hover {
     color: #fffdf4;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #contactBox {

@@ -60,40 +60,53 @@ a {
     border-color: #dee2e6 #dee2e6 #fffdf4;
 }
 
+.nav-active {
+    border-bottom: 3px solid;
+}
+
+.navbar-style:hover {
+    border-bottom: 3px solid;
+    transition: 0.2s;
+}
+
 #homeActive {
-    border-bottom: 3px solid #ff6666;
+    border-color: #ff6666;
 }
 
 #homeNav:hover {
-    border-bottom: 3px solid #ff6666;
+    border-color: #ff6666;
     transition: 0.2s;
 }
 
 #aboutActive {
-    border-bottom: 3px solid #ffd46c;
+    border-color: #ffd46c;
 }
 
 #aboutNav:hover {
-    border-bottom: 3px solid #ffd46c;
+    border-color: #ffd46c;
     transition: 0.2s;
 }
 
 #portfolioActive {
-    border-bottom: 3px solid #67ffc5;
+    border-color: #67ffc5;
 }
 
 #portfolioNav:hover {
-    border-bottom: 3px solid #67ffc5;
+    border-color: #67ffc5;
     transition: 0.2s;
 }
 
 #contactActive {
-    border-bottom: 3px solid #5bc9ff;
+    border-color: #5bc9ff;
 }
 
 #contactNav:hover {
-    border-bottom: 3px solid #5bc9ff;
+    border-color: #5bc9ff;
     transition: 0.2s;
+}
+
+.line {
+    border-bottom: 1px solid #dee2e6;
 }
 
 .icon {

@@ -1,5 +1,7 @@
 $(document).ready()
 
+
+
 var colBtn = $("#collapseBtn");
 var nightBtn = $("#nightBtn");
 var navbar = $("#navBar");
